@@ -1,16 +1,26 @@
 import React from "react";
+import cloud from "./cloud.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header>Header</header>
-      <div className="container">
-        <main>Main</main>
-        <nav>Nav</nav>
-        <aside>Aside</aside>
-      </div>
-      <footer>Footer</footer>
+      <header>
+        <img src={cloud} width="64px" height="40px"></img>
+        <nav>
+          <ul>
+            <li>
+              <a href="">Menu</a>
+            </li>
+            <li>
+              <a href="">Menu</a>
+            </li>
+            <li>
+              <a href="">Menu</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
     </div>
   );
 }
